@@ -1,0 +1,8 @@
+question,option,input_type,input_id,dependence,dependence_value,required,page
+What is Your Name?,your Full name,text,candidate_name,NA,NA,TRUE,candidate
+What is Your Family Name?,family name,text,candidate_surname,NA,NA,TRUE,candidate
+Company,your company,text,candidate_company,NA,NA,TRUE,candidate
+Voucher,fairanalytics2022,text,voucher_code,NA,NA,FALSE,candidate
+Do you have other specifications,Yes,y/n,candidate_specifications_yn,NA,NA,FALSE,candidate
+Do you have other specifications,No,y/n,candidate_specifications_yn,NA,NA,FALSE,candidate
+Special Specifications,Please provide more details,text,candidate_specifications,candidate_specifications_yn,Yes,TRUE,candidate

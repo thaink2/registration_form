@@ -1,0 +1,30 @@
+Package: fairregistration
+Title: Fair Analytics : Training Manager
+Version: 0.1
+Authors@R: person('Farid Azouaou', 'AUTHOR_LAST', email = 'fair_analytics@outlook.com', role = c('cre', 'aut'))
+Description: PKG_DESC.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    shinysurveys,
+    rmarkdown,
+    pkgload,
+    readxl,
+    shinyalert,
+    rdrop2,
+    readr,
+    dplyr,
+    httr,
+    magrittr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Suggests: 
+    testthat
